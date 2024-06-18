@@ -7,29 +7,49 @@
     <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
 <body>
-    <div class="container">
-        <h1>MAPA</h1>
-        <h2>Calculadora de Churrasco</h2>
-        
-        <form class="calculadora" action="#" method="get">
-            <div>
-              <label for="homens">Quantidade de homens:</label>
-              <input type="number" id="homens" />
-            </div>
-            <div>
-              <label for="mulheres">Quantidade de mulheres:</label>
-              <input type="enumber" id="mulheres" />
-            </div>
-            <div>
-                <label for="criancas">Quantidade de crianças:</label>
-                <input type="enumber" id="criancas" />
-            </div>
-            <div class="button">
-                <button type="submit">Calcular</button>
-            </div>
-          </form>
-          
+  <div class="container">
+    <h1>MAPA</h1>
+
+    <div class="calculadora">
+      <h2>Calculadora de Churrasco</h2>
+      <div class="formulario">
+        <form action="#">
+          <div class="form-item">
+            <label for="homens">Qual a quantidade de homens?</label>
+            <input type="number" name="homens" class="homens" id="homens" />
+          </div>
+  
+          <div class="form-item">
+            <label for="mulheres">Qual a quantidade de mulheres?</label>
+            <input type="number" name="mulheres" class="mulheres" id="mulheres" />
+          </div>
+  
+          <div class="form-item">
+            <label for="criancas">Qual a quantidade de crianças?</label>
+            <input type="number" name="criancas" class="criancas" id="criancas" />
+          </div>
+  
+          <div class="button-submit">
+            <input type="submit" value="Calcular Churrasco" onclick="removeClasse()"/>
+          </div>
+        </form>
+      </div>
+      <!-- ./formulário -->
+      
+      <div id="resultados" class="resultado">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </div>
-    <script src="./assets/js/main.js"></script>
+      
+  </div>
+  <!-- ./container -->
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
