@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora de Churrasco</title>
+  <link rel="stylesheet" href="./assets/css/styles.css"/>
+</head>
+<body>
+    <div class="container">
+    <h1>MAPA</h1>
+    <div class="calculadora">
+        <h2>Calculadora de Churrasco</h2>
+
+        <div class="formulario">
+            <div class="form-group">
+                <label for="homens">Quantidade de homens:</label>
+                <input type="number" id="homens" name="homens" value="0">
+            </div>
+
+            <div class="form-group">
+                <label for="mulheres">Quantidade de mulheres:</label>
+                <input type="number" id="mulheres" name="mulheres" value="0">
+            </div>
+
+            <div class="form-group">
+                <label for="criancas">Quantidade de crianças:</label>
+                <input type="number" id="criancas" name="criancas" value="0">
+            </div>
+
+            <button class="calcular" id="calcular">Calcular</button>
+        </div>
+        <!-- /formulario -->
+
+        <div class="resultados" id="resultados">
+            <h2>Resultados</h2>
+            <ul>
+                <li><span id="carne-bovina">0g</span> de carne bovina</li>
+                <li><span id="frango">0g</span> de frango </li>
+                <li><span id="linguiça">0g</span> de linguiça </li>
+                <li><span id="refrigerante">0ml</span> de refrigerante </li>
+                <li><span id="cerveja">0ml</span> de cerveja </li>
+            </ul>
+        </div>
+        <!-- /resultados -->
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

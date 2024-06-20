@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../img/churrasco.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22, .8);
+    border-radius: 1em;
+    padding: 1.6em;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .formulario {
+        margin-bottom: 1em 0;
+        width: 100%;
+    }
+
+    .formulario div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .form-group {
+        margin: 1em 0;
+    }
+
+    .form-group input {
+        width: 40%;
+        padding: .5em;
+        font-weight: bold;
+        font-size: .9em;
+        text-align: center;
+        border-radius: .5em;
+        border: 1px solid #F37E1F;
+
+        &:focus {
+            outline: 2px solid #F37E1F;
+        }
+    }
+
+    .calcular {
+        cursor: pointer;
+        width: 100%;
+        padding: 1em 2em;
+        transition: .3s;
+        background-color: #F37E1F;
+        border-radius: 1em;
+        margin: 1em 0 2em 0;
+        font-weight: bold;
+        font-size: 1em;
+
+        &:hover {
+            background-color: #c7600c;
+            color: #FFF;
+        }
+    }
+
+    .resultados {
+        width: 100%;
+        border: 1px solid #F37E1F;
+        border-radius: 1em;
+        font-size: 1.1em;
+        padding: 1em;
+
+        h2 {
+            margin-bottom: .5em;
+            text-align: center;
+        }
+
+        ul {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        ul li {
+            margin: .5em 0;
+        }
+    }
+}
