@@ -10,14 +10,89 @@
 body {
     background-image: url(../img/churrasco.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: .5em;
 }
 
 .container {
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
-    background-color: antiquewhite;
+    color: #FFF;
 }
 
-.hidden {
-    display: none;
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 22, 22, .8);
+    border-radius: 1em;
+    padding: 1.6em;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .formulario {
+        margin-bottom: 1em 0;
+        width: 100%;
+    }
+
+    .formulario div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .form-item {
+        margin: 1em 0;
+    }
+
+    .form-item input,
+    .button-submit input {
+        font-weight: bold;
+        font-size: .9em;
+        border-radius: 1em;
+    }
+
+    .form-item input {
+        width: 8em;
+        padding: .5em;
+        text-align: center;
+        border: 1px solid #F37E1F;
+
+        &:focus {
+            outline: 2px solid #F37E1F;
+        }
+    }
+
+    .button-submit input {
+        cursor: pointer;
+        width: 100%;
+        padding: 1em 2em;
+        transition: .3s;
+        background-color: #F37E1F;
+        border: none;
+        margin: 1em 0 2em 0;
+
+        &:hover {
+            background-color: #c7600c;
+            color: #FFF;
+        }
+    }
+
+    .resultado {
+        width: 70%;
+        border: 1px solid #F37E1F;
+        border-radius: .5em;
+    }
 }
