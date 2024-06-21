@@ -1,3 +1,4 @@
+//Pegar as quantidades informadas no input
 const qtdHomensInput = document.getElementById('homens');
 const qtdMulheresInput = document.getElementById('mulheres');
 const qtdCriancasInput = document.getElementById('criancas');
