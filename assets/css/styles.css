@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 1em;
 }
 
 body {
@@ -16,6 +17,12 @@ body {
 
 h1 {
     margin-bottom: .5em;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
 }
 
 .container {
@@ -23,7 +30,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     height: 100vh;
     margin: 0 auto;
     color: #FFF;
@@ -36,11 +42,8 @@ h1 {
     justify-content: center;
     background-color: rgb(22, 22, 22, .8);
     border-radius: 1em;
-    padding: 1.6em;
-
-    h2 {
-        font-size: 2em;
-    }
+    padding: 1em;
+    max-width: 95%;
 
     .formulario {
         margin-bottom: 1em 0;
@@ -61,13 +64,12 @@ h1 {
         width: 40%;
         padding: .5em;
         font-weight: bold;
-        font-size: .9em;
         text-align: center;
         border-radius: .5em;
         border: 1px solid #F37E1F;
 
         &:focus {
-            outline: 2px solid #F37E1F;
+            outline: 4px solid #F37E1F;
         }
     }
 
@@ -78,9 +80,9 @@ h1 {
         transition: .3s;
         background-color: #F37E1F;
         border-radius: 1em;
+        border: none;
         margin: 1em 0 2em 0;
         font-weight: bold;
-        font-size: 1em;
 
         &:hover {
             background-color: #c7600c;
@@ -92,13 +94,7 @@ h1 {
         width: 100%;
         border: 1px solid #F37E1F;
         border-radius: 1em;
-        font-size: 1.1em;
         padding: 1em;
-
-        h2 {
-            margin-bottom: .5em;
-            text-align: center;
-        }
 
         ul {
             width: 70%;
