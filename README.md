@@ -1,10 +1,15 @@
-# calculadora-churrasco
+<h1 align="center"> Calculadora de Churrasco </h1>
 Atividade MAPA da disciplina Programação Front-end (522024) do curso de Analíse e Desenvolvimento de Sistemas - UniCesumar (EAD).
 Desenvolver uma página Web com uma calculadora de churrasco onde será calculado os "ingredientes" de acordo com a quantidade de participantes.
 Utilizando HTML5, CSS3 e Javascript.
+<br>
+<br>
 
 [Clique aqui para acessar a Calculadora](https://samuelcarneiro.github.io/site-allan-ramalho-consultoria/)
+
+
 ![preview](./.github/page.png)
+
 
 ### Consumo considerado nos cálculos
 |              | Homens | Mulheres | Crianças |
