@@ -5,7 +5,7 @@ Utilizando HTML5, CSS3 e Javascript.
 <br>
 <br>
 
-[Clique aqui para acessar a Calculadora](https://samuelcarneiro.github.io/site-allan-ramalho-consultoria/)
+[Clique aqui para acessar a Calculadora](https://samuelcarneiro.github.io/calculadora-churrasco/)
 
 
 ![preview](./.github/page.png)
